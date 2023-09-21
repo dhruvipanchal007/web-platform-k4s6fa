@@ -105,3 +105,39 @@ body{
 .how-it-works iframe{
   width: 560px;
 }
+.pricing{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.box{
+  width: 300px;
+  border: 1px solid #000;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.level{
+  background-color: #ddd;
+  margin-top: 0;
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  width: 100%;
+}
+.price{
+  margin-top: 15px;
+  font-size: 24px;
+}
+.list{
+  margin-top: 15px;
+  list-style: none;
+
+}
+.list-item{
+  padding: 5px;
+}
